@@ -1,0 +1,491 @@
+{
+  "titulo": "A eleição terminou. A conta, não.",
+  "assinatura": "@seuperfil",
+  "formato": "9x16",
+  "duracao_alvo": [
+    50,
+    60
+  ],
+  "origem": "roteiro/cenas.json do documentário 16:9 (sessão de 27/10/2026). Mesmo esquema: falas com txt/tts/destaque e elementos com slot e at/ate/sai em índices de fala.",
+  "cenas": [
+    {
+      "id": "R01",
+      "nome": "Gancho",
+      "fundo": "escuro",
+      "origem": [
+        "S01",
+        "S17"
+      ],
+      "sem_fade": true,
+      "falas": [
+        {
+          "txt": "A eleição terminou. A conta, não.",
+          "destaque": [
+            "A conta, não."
+          ]
+        }
+      ],
+      "elementos": [
+        {
+          "tipo": "fatura",
+          "titulo": "FATURA",
+          "linhas": [
+            [
+              "Referente a",
+              "Reeleição 2026"
+            ],
+            [
+              "Vencimento",
+              "2027 a 2030"
+            ],
+            [
+              "Pagador",
+              "?"
+            ]
+          ],
+          "total": "R$ ???",
+          "slot": "C",
+          "at": 0
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "EM ABERTO",
+          "sobre": 0,
+          "at": 0.55
+        },
+        {
+          "tipo": "tag",
+          "texto": "ELEIÇÃO 2026",
+          "cor": "vermelho",
+          "slot": "CANTO",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "nome": "O resultado",
+      "fundo": "escuro",
+      "origem": [
+        "S02"
+      ],
+      "falas": [
+        {
+          "txt": "Lula foi reeleito por 4,4 milhões de votos.",
+          "tts": "Lula foi reeleito por quatro vírgula quatro milhões de votos.",
+          "destaque": [
+            "4,4 milhões"
+          ]
+        }
+      ],
+      "elementos": [
+        {
+          "tipo": "placar",
+          "titulo": "2º TURNO · 25/10/2026 · VOTOS VÁLIDOS",
+          "a": [
+            "Lula (PT)",
+            51.79
+          ],
+          "b": [
+            "Flávio Bolsonaro (PL)",
+            48.21
+          ],
+          "fonte": "Fonte: TSE",
+          "slot": "L",
+          "at": 0
+        },
+        {
+          "tipo": "numero",
+          "valor": "4,4 mi",
+          "legenda": "votos de diferença",
+          "cor": "amarelo",
+          "slot": "R",
+          "at": 0.45
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "REELEITO",
+          "sobre": 0,
+          "at": 0.25
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "nome": "O veredito do mercado",
+      "fundo": "escuro",
+      "origem": [
+        "S03"
+      ],
+      "falas": [
+        {
+          "txt": "Horas depois, as ações brasileiras em Nova York chegaram a cair 26,7%.",
+          "tts": "Horas depois, as ações brasileiras em Nova York chegaram a cair vinte e seis vírgula sete por cento.",
+          "destaque": [
+            "26,7%"
+          ]
+        },
+        {
+          "txt": "A pior reação a uma eleição desde 2002.",
+          "tts": "A pior reação a uma eleição desde dois mil e dois.",
+          "destaque": [
+            "desde 2002"
+          ]
+        }
+      ],
+      "elementos": [
+        {
+          "tipo": "foto",
+          "img": "nova_york",
+          "legenda": "NOVA YORK",
+          "slot": "L",
+          "at": 0,
+          "ate": 1
+        },
+        {
+          "tipo": "numero",
+          "valor": "−26,7%",
+          "legenda": "EWZ · pré-abertura de segunda, 26/10",
+          "cor": "vermelho",
+          "slot": "R",
+          "at": 0.5,
+          "ate": 1
+        },
+        {
+          "tipo": "recorte",
+          "fonte": "Levantamento citado pela imprensa",
+          "data": "26/10/2026",
+          "titulo": "Pior reação do mercado a uma eleição presidencial desde 2002",
+          "marca": [
+            "desde 2002"
+          ],
+          "slot": "C",
+          "at": 1
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "nome": "A planilha de 2027",
+      "fundo": "escuro",
+      "origem": [
+        "S04",
+        "S10"
+      ],
+      "falas": [
+        {
+          "txt": "Por quê? 91,7% das despesas primárias de 2027 já são obrigatórias.",
+          "tts": "Por quê? Noventa e um vírgula sete por cento das despesas primárias de dois mil e vinte e sete já são obrigatórias.",
+          "destaque": [
+            "91,7%"
+          ]
+        },
+        {
+          "txt": "Sobram 8,3% para escolher.",
+          "tts": "Sobram oito vírgula três por cento para escolher.",
+          "destaque": [
+            "8,3%"
+          ]
+        }
+      ],
+      "elementos": [
+        {
+          "tipo": "planilha",
+          "titulo": "CONTAS PÚBLICAS · 2027",
+          "slot": "C",
+          "at": 0,
+          "ate": 0.3
+        },
+        {
+          "tipo": "pontos",
+          "percentual": 91.7,
+          "legenda": "das despesas primárias são obrigatórias",
+          "fonte": "PLOA 2027 · Min. do Planejamento",
+          "slot": "C",
+          "at": 0.3
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "TRAVADO",
+          "sobre": 1,
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "nome": "O pacote do ano eleitoral",
+      "fundo": "escuro",
+      "origem": [
+        "S07"
+      ],
+      "falas": [
+        {
+          "txt": "E o ano eleitoral somou R$ 298 bilhões em benefícios e crédito subsidiado.",
+          "tts": "E o ano eleitoral somou duzentos e noventa e oito bilhões de reais em benefícios e crédito subsidiado.",
+          "destaque": [
+            "R$ 298 bilhões"
+          ]
+        }
+      ],
+      "elementos": [
+        {
+          "tipo": "pacote",
+          "itens": [
+            "BOLSA FAMÍLIA +15%",
+            "COMBUSTÍVEIS",
+            "DÍVIDAS DE MEI",
+            "CRÉDITO SUBSIDIADO"
+          ],
+          "slot": "L",
+          "at": 0
+        },
+        {
+          "tipo": "numero",
+          "valor": "R$ 298,4 bi",
+          "legenda": "benefícios e políticas em 2026 · IFI/Senado",
+          "cor": "amarelo",
+          "slot": "R",
+          "at": 0.45
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "ANO ELEITORAL",
+          "sobre": 0,
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "id": "R06",
+      "nome": "Não existe almoço grátis",
+      "fundo": "escuro",
+      "origem": [
+        "S12"
+      ],
+      "falas": [
+        {
+          "txt": "Não existe almoço grátis. Alguém sempre paga.",
+          "destaque": [
+            "Alguém sempre paga."
+          ]
+        }
+      ],
+      "elementos": [
+        {
+          "tipo": "icone",
+          "nome": "prato",
+          "legenda": "GRÁTIS",
+          "riscado": true,
+          "slot": "C",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "id": "R07",
+      "nome": "Três caminhos",
+      "fundo": "escuro",
+      "origem": [
+        "S12",
+        "S13",
+        "S14",
+        "S15"
+      ],
+      "falas": [
+        {
+          "txt": "A conta chega por três caminhos.",
+          "destaque": [
+            "três caminhos"
+          ]
+        },
+        {
+          "txt": "Mais impostos.",
+          "destaque": [
+            "Mais impostos."
+          ]
+        },
+        {
+          "txt": "Dólar alto no pão, no diesel, no remédio.",
+          "destaque": [
+            "pão",
+            "diesel",
+            "remédio"
+          ]
+        },
+        {
+          "txt": "E juros altos por mais tempo.",
+          "destaque": [
+            "juros altos"
+          ]
+        }
+      ],
+      "elementos": [
+        {
+          "tipo": "cartoes",
+          "itens": [
+            "1",
+            "2",
+            "3"
+          ],
+          "slot": "C",
+          "at": 0,
+          "ate": 1
+        },
+        {
+          "tipo": "titulo",
+          "numero": "1",
+          "texto": "mais impostos",
+          "cor": "vermelho",
+          "at": 1,
+          "ate": 2
+        },
+        {
+          "tipo": "titulo",
+          "numero": "2",
+          "texto": "o real mais fraco",
+          "cor": "amarelo",
+          "at": 2,
+          "ate": 2.35
+        },
+        {
+          "tipo": "foto",
+          "img": "pao",
+          "legenda": "PÃO",
+          "slot": "TL",
+          "at": 2.35,
+          "ate": 3
+        },
+        {
+          "tipo": "foto",
+          "img": "caminhao",
+          "legenda": "DIESEL",
+          "slot": "TR",
+          "at": 2.55,
+          "ate": 3
+        },
+        {
+          "tipo": "foto",
+          "img": "remedio",
+          "legenda": "REMÉDIOS",
+          "slot": "BL",
+          "at": 2.75,
+          "ate": 3
+        },
+        {
+          "tipo": "seta",
+          "direcao": "sobe",
+          "legenda": "US$",
+          "slot": "BR",
+          "at": 2.35,
+          "ate": 3
+        },
+        {
+          "tipo": "titulo",
+          "numero": "3",
+          "texto": "juros altos por mais tempo",
+          "cor": "vermelho",
+          "at": 3
+        }
+      ]
+    },
+    {
+      "id": "R08",
+      "nome": "Quem paga primeiro",
+      "fundo": "escuro",
+      "origem": [
+        "S16"
+      ],
+      "falas": [
+        {
+          "txt": "E quem sente primeiro é quem tem menos renda e nenhuma reserva.",
+          "destaque": [
+            "menos renda",
+            "nenhuma reserva"
+          ]
+        }
+      ],
+      "elementos": [
+        {
+          "tipo": "familia",
+          "holofote": true,
+          "slot": "C",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "id": "R09",
+      "nome": "Fechamento",
+      "fundo": "escuro",
+      "origem": [
+        "S17"
+      ],
+      "falas": [
+        {
+          "txt": "A eleição terminou. A conta, não.",
+          "destaque": [
+            "A conta, não."
+          ]
+        }
+      ],
+      "elementos": [
+        {
+          "tipo": "fatura",
+          "titulo": "FATURA",
+          "linhas": [
+            [
+              "Referente a",
+              "Reeleição 2026"
+            ],
+            [
+              "Vencimento",
+              "2027 a 2030"
+            ],
+            [
+              "Pagador",
+              "o contribuinte"
+            ]
+          ],
+          "total": "EM ABERTO",
+          "slot": "C",
+          "at": 0
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "EM ABERTO",
+          "sobre": 0,
+          "at": 0.55
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "nome": "CTA",
+      "fundo": "amarelo",
+      "origem": [
+        "S18"
+      ],
+      "falas": [
+        {
+          "txt": "Siga para acompanhar para onde vai o dinheiro público.",
+          "destaque": [
+            "Siga"
+          ]
+        }
+      ],
+      "elementos": [
+        {
+          "tipo": "assinatura",
+          "slot": "C",
+          "at": 0,
+          "cta": [
+            "SEGUIR",
+            "SALVAR"
+          ]
+        }
+      ],
+      "segura_final": 1.5
+    }
+  ]
+}
