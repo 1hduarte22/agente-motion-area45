@@ -27,3 +27,13 @@ Fotos retrato ocupam a tela inteira; fotos paisagem entram num card sobre a pró
 ## Padrão de roteiro (alinhado ao gestor de tráfego)
 
 Gancho com preço/benefício nos 3 primeiros segundos → 5 a 7 cenas de prova (um benefício por cena, texto grande) → preço → CTA para WhatsApp. 20 a 30 s, texto 100% queimado (o vídeo funciona sem som), texto principal fora dos 360 px de baixo no 9:16 para não ficar atrás da interface do Instagram.
+
+## Documentários 16:9 com IA
+
+Para vídeos institucionais e documentais longos (YouTube, site, apresentações) há um template próprio em [`templates/documentario-ia/`](templates/documentario-ia/README.md): pastas de pré-produção, roteiro e final, modelo de roteiro com cenas, narração, textos na tela, trilha e transições, e o montador `engine/documentario.mjs`, que gera o MP4 1920×1080 com legendas.
+
+```bash
+cp -r templates/documentario-ia projetos/<cliente>/<documentario>
+node engine/documentario.mjs projetos/<cliente>/<documentario>/script/roteiro.json --rascunho   # animatic rápido
+node engine/documentario.mjs projetos/<cliente>/<documentario>/script/roteiro.json              # final 16:9
+```

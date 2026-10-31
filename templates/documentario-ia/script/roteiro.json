@@ -1,0 +1,89 @@
+{
+  "nome": "documentario",
+  "titulo": "Título do documentário",
+  "cliente": "Nome do cliente",
+  "objetivo": "O que o público precisa sentir, entender ou fazer ao final do vídeo",
+  "publico": "Para quem é o vídeo",
+  "plataforma": "YouTube / site institucional / apresentação (16:9)",
+
+  "estilo": {
+    "fps": 30,
+    "fonte": "Inter",
+    "fonte_titulo": null,
+    "cor": "eq=contrast=1.06:saturation=0.92",
+    "vinheta": true,
+    "fade_inicial": 1.2,
+    "fade_final": 2,
+    "legenda_max_chars": 42
+  },
+
+  "trilha": {
+    "arquivo": "pre-producao/trilha/trilha.mp3",
+    "volume": 0.35,
+    "ducking": 0.6,
+    "inicio_no_arquivo": 0,
+    "fade_inicial": 2,
+    "fade_final": 4
+  },
+
+  "cenas": [
+    {
+      "titulo": "Abertura",
+      "visual": { "arquivo": "pre-producao/videos/c01_abertura.mp4", "descricao": "Plano aéreo lento da cidade ao amanhecer, névoa baixa", "inicio": 0 },
+      "narracao": { "texto": "Toda história começa com uma pergunta. Esta começou numa manhã comum.", "audio": "pre-producao/narracao/c01.mp3", "inicio": 1.5 },
+      "textos": [
+        { "estilo": "titulo", "texto": "TÍTULO DO DOCUMENTÁRIO", "de": 1.0, "ate": 5.5 }
+      ],
+      "sfx": [ { "arquivo": "pre-producao/sfx/whoosh.wav", "em": 0.8, "volume": 0.6 } ],
+      "dur": 7
+    },
+    {
+      "titulo": "Contexto",
+      "visual": { "arquivo": "pre-producao/imagens/c02_contexto.jpg", "descricao": "Foto de arquivo do lugar há 20 anos", "movimento": { "tipo": "zoom-in", "intensidade": 0.1 } },
+      "narracao": { "texto": "Há vinte anos, este lugar era muito diferente do que vemos hoje.", "audio": "pre-producao/narracao/c02.mp3" },
+      "textos": [ { "estilo": "data", "texto": "2006" } ],
+      "transicao": { "tipo": "fusao", "duracao": 1.0 }
+    },
+    {
+      "titulo": "Personagem",
+      "visual": { "arquivo": "pre-producao/videos/c03_personagem.mp4", "descricao": "Personagem principal em plano médio, luz lateral, olhando para fora do quadro" },
+      "narracao": { "texto": "Foi aqui que Maria decidiu começar do zero.", "audio": "pre-producao/narracao/c03.mp3" },
+      "textos": [
+        { "estilo": "terco", "texto": "Maria Silva", "de": 0.8, "ate": 4.5 },
+        { "estilo": "terco-sub", "texto": "Fundadora", "de": 1.0, "ate": 4.5 }
+      ],
+      "transicao": "corte"
+    },
+    {
+      "titulo": "O dado",
+      "visual": { "arquivo": "pre-producao/imagens/c04_dado.jpg", "descricao": "Fundo escuro texturizado para o número", "movimento": "estatico" },
+      "narracao": { "texto": "Em cinco anos, mais de três mil famílias passaram por aqui.", "audio": "pre-producao/narracao/c04.mp3" },
+      "textos": [
+        { "estilo": "dado", "texto": "+3.000", "de": 0.6 },
+        { "estilo": "apoio", "texto": "famílias atendidas em 5 anos", "de": 1.2 }
+      ],
+      "transicao": { "tipo": "preto", "duracao": 0.8 }
+    },
+    {
+      "titulo": "Virada",
+      "visual": { "arquivo": "pre-producao/imagens/c05_virada.jpg", "descricao": "Detalhe de mãos trabalhando, luz quente", "movimento": "pan-dir" },
+      "narracao": { "texto": "Mas nada disso aconteceu por acaso.", "audio": "pre-producao/narracao/c05.mp3" },
+      "transicao": { "tipo": "deslizar-esq", "duracao": 0.6 }
+    },
+    {
+      "titulo": "Depoimento",
+      "visual": { "arquivo": "pre-producao/videos/c06_depoimento.mp4", "descricao": "Entrevista em plano fechado, fundo desfocado" },
+      "textos": [ { "estilo": "citacao", "texto": "“A gente não constrói casas.\nA gente constrói começos.”", "de": 0.8 } ],
+      "dur": 6,
+      "transicao": { "tipo": "fusao", "duracao": 0.8 }
+    },
+    {
+      "titulo": "Encerramento",
+      "visual": { "arquivo": "pre-producao/imagens/c07_encerramento.jpg", "descricao": "Plano aberto do lugar hoje, fim de tarde", "movimento": "zoom-out" },
+      "narracao": { "texto": "E a história continua sendo escrita, todos os dias.", "audio": "pre-producao/narracao/c07.mp3" },
+      "textos": [ { "estilo": "creditos", "texto": "Uma produção Area45 Marketing\narea45.com.br", "de": 3.0 } ],
+      "respiro": 3,
+      "transicao": { "tipo": "fusao", "duracao": 1.2 }
+    }
+  ]
+}
