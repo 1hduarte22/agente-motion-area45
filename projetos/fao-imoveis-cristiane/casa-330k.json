@@ -1,0 +1,18 @@
+{
+  "client": "Fão Imóveis (Cristiane)",
+  "campaign": "Imóvel 02 · casa nova R$ 330 mil · Meta Ads → WhatsApp",
+  "assets": "assets",
+  "brand": "Fão Imóveis",
+  "grade": "contrast(1.04) saturate(1.08)",
+  "scenes": [
+    {"type":"hook","img":"c10.jpg","fit":"cover","zoom":0.06,"dur":3.4,"kicker":"Casa nova","title":"Pronta pra morar por <em>R$&nbsp;330&nbsp;mil</em>","sub":"Fachada moderna e acabamento de alto padrão","note":"Imagem ilustrativa"},
+    {"type":"photo","img":"c04.jpg","zoom":0.05,"dur":2.4,"label":"Fachada moderna","caption":"Foto real do imóvel"},
+    {"type":"photo","img":"c01.jpg","zoom":0.05,"dur":2.6,"label":"Gesso rebaixado com spots","caption":"Porcelanato polido em toda a casa"},
+    {"type":"photo","img":"c05.jpg","zoom":0.05,"dur":2.4,"label":"Cozinha em porcelanato marmorizado"},
+    {"type":"photo","img":"c06.jpg","zoom":0.05,"dur":2.4,"label":"Banheiro preto e branco","caption":"Acabamento que você não precisa reformar"},
+    {"type":"photo","img":"c07.jpg","zoom":0.05,"dur":2.6,"label":"Área gourmet com churrasqueira"},
+    {"type":"photo","img":"c09.jpg","zoom":0.05,"dur":2.2,"label":"Jardim de inverno"},
+    {"type":"price","img":"c11.jpg","zoom":0.04,"dur":3.6,"pre":"Casa nova · pronta pra morar","value":330,"chips":["Churrasqueira","Jardim de inverno","Spots","Porcelanato"],"note":"Imagem ilustrativa"},
+    {"type":"cta","img":"c07.jpg","dur":3.8,"title":"Domingo de <em>churrasco</em> na sua casa nova","sub":"Agende sua visita pelo WhatsApp","button":"Chamar no WhatsApp","who":"Cristiane · Fão Imóveis"}
+  ]
+}

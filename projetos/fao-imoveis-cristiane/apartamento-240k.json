@@ -1,0 +1,19 @@
+{
+  "client": "Fão Imóveis (Cristiane)",
+  "campaign": "Imóvel 01 · apartamento R$ 240 mil · Meta Ads → WhatsApp",
+  "assets": "assets",
+  "brand": "Fão Imóveis",
+  "grade": "brightness(1.07) contrast(1.06) saturate(1.28)",
+  "scenes": [
+    {"type":"hook","img":"a11.jpg","dur":3.4,"kicker":"Saia do aluguel","title":"Apartamento com <em>piscina</em> por R$&nbsp;240&nbsp;mil","sub":"Condomínio fechado com lazer completo"},
+    {"type":"photo","img":"a02.jpg","dur":2.6,"label":"Condomínio fechado","caption":"Portaria e estacionamento"},
+    {"type":"photo","img":"a10.jpg","dur":2.4,"label":"Playground","caption":"Seu filho brincando em segurança"},
+    {"type":"photo","img":"a07.jpg","dur":2.2,"label":"Quadra esportiva"},
+    {"type":"photo","img":"a12.jpg","dur":2.2,"label":"Pergolado e área verde"},
+    {"type":"photo","img":"a06.jpg","dur":2.4,"label":"Pronto para morar","caption":"Ambientes claros e amplos"},
+    {"type":"photo","img":"a04.jpg","dur":2.4,"label":"Quartos com piso laminado"},
+    {"type":"photo","img":"a13.jpg","dur":2.0,"label":"Banheiro com box de vidro"},
+    {"type":"price","img":"a11.jpg","dur":3.6,"pre":"Apartamento em condomínio","value":240,"chips":["Piscina","Playground","Quadra","Portaria"]},
+    {"type":"cta","img":"a11.jpg","dur":3.8,"title":"Chega de pagar <em>aluguel</em>","sub":"Receba a simulação do seu financiamento","button":"Chamar no WhatsApp","who":"Cristiane · Fão Imóveis"}
+  ]
+}
