@@ -27,3 +27,7 @@ Fotos retrato ocupam a tela inteira; fotos paisagem entram num card sobre a pró
 ## Padrão de roteiro (alinhado ao gestor de tráfego)
 
 Gancho com preço/benefício nos 3 primeiros segundos → 5 a 7 cenas de prova (um benefício por cena, texto grande) → preço → CTA para WhatsApp. 20 a 30 s, texto 100% queimado (o vídeo funciona sem som), texto principal fora dos 360 px de baixo no 9:16 para não ficar atrás da interface do Instagram.
+
+## Outros projetos
+
+- [`projetos/documentario-eleicao-2026/reels-9x16/`](projetos/documentario-eleicao-2026/reels-9x16/): roteiro e guia para adaptar o documentário "A eleição terminou. A conta, não." (16:9, feito em Remotion) para um corte vertical de ~55 s para Reels e Shorts.
