@@ -1,0 +1,10 @@
+{
+  "extends": "base.json",
+  "piece": "Reels/Stories de urgência · 11 s · usar na última semana (24 a 30/11) e em remarketing",
+  "vars": { "short": { "big": "130px", "h1": "96px", "price": "250px" }, "tall": { "big": "150px", "h1": "112px", "price": "340px" } },
+  "scenes": [
+    { "type": "hook", "dur": 2.6, "size": "big", "kicker": "Últimos dias", "lines": ["A Black", "November", "<em>está acabando</em>"] },
+    { "type": "offer", "dur": 4.6, "title": "Identidade visual <em>completa</em>", "pre": "Tudo por", "vars": { "tall": { "price": "260px", "chip": "28px" }, "short": { "price": "210px", "chip": "26px" } } },
+    { "type": "cta", "dur": 3.8, "badge": "Só até 30/11", "title": "Depois volta ao <em>preço normal</em>", "button": "Garantir agora", "arrow": true, "fine": "Arte do cartão de visita em arquivo digital (impressão não inclusa)." }
+  ]
+}

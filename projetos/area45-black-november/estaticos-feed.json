@@ -1,0 +1,9 @@
+{
+  "extends": "base.json",
+  "piece": "Posts/anúncios estáticos de feed · 4:5 · renderizar com --format 4x5 --stills",
+  "scenes": [
+    { "type": "offer", "dur": 3, "kicker": "Black November", "lines": ["Identidade", "<em>visual</em>"], "pre": "Pacote completo por", "button": "Chamar no WhatsApp", "vars": { "big": "140px", "chip": "27px", "price": "230px" } },
+    { "type": "offer", "dur": 3, "kicker": "Black November · até 30/11", "title": "Sua marca <em>completa</em> em um pacote", "list": true, "pre": "Tudo por", "chips": false, "vars": { "h2": "62px", "it": "34px", "ic": "52px", "ipad": "10px 20px", "lgap": "9px", "price": "170px", "pp": "30px" } },
+    { "type": "price", "dur": 3, "badge": "Últimos dias · até 30/11", "pre": "Identidade visual completa por", "chips": true, "sub": "Logo, manual, paleta, tipografia, destaques, aplicação e arte do cartão.", "vars": { "price": "280px", "chip": "27px" } }
+  ]
+}

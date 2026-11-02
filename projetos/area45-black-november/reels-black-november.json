@@ -1,0 +1,86 @@
+{
+  "extends": "base.json",
+  "piece": "Reels/anúncio principal · 20 s · renderizar em 9x16 (Reels/Stories) e 4x5 (feed)",
+  "vars": {
+    "short": {
+      "big": "150px",
+      "h1": "96px",
+      "h2": "64px",
+      "it": "38px",
+      "ic": "60px",
+      "ipad": "14px 22px",
+      "lgap": "12px",
+      "price": "250px",
+      "kit": "0.82"
+    },
+    "tall": {
+      "big": "168px",
+      "h1": "112px",
+      "h2": "68px",
+      "it": "42px",
+      "ic": "68px",
+      "lgap": "16px",
+      "price": "340px",
+      "kit": "1"
+    }
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 2.4,
+      "lines": [
+        "Sua marca",
+        "ainda parece",
+        "<em>improvisada?</em>"
+      ],
+      "size": "big",
+      "vars": {
+        "tall": {
+          "big": "128px"
+        },
+        "short": {
+          "big": "112px"
+        }
+      }
+    },
+    {
+      "type": "title",
+      "dur": 2.8,
+      "kicker": "Area45 apresenta",
+      "lines": [
+        "Black",
+        "<span class=\"ol\">November</span>"
+      ],
+      "sub": "Condição especial <b>só em novembro</b>",
+      "ticker": "Identidade visual por R$ 499"
+    },
+    {
+      "type": "kit",
+      "dur": 3.4,
+      "kicker": "Identidade visual completa",
+      "title": "Tudo pra sua marca ser <em>lembrada</em>"
+    },
+    {
+      "type": "list",
+      "dur": 5.0,
+      "title": "O que você <em>recebe</em>:",
+      "step": 0.42
+    },
+    {
+      "type": "price",
+      "dur": 3.4,
+      "badge": "Válido até 30/11",
+      "pre": "Pacote completo por",
+      "post": "7 entregas em um só pacote"
+    },
+    {
+      "type": "cta",
+      "dur": 3.8,
+      "title": "Garanta a sua <em>em novembro</em>",
+      "sub": "Chame no WhatsApp e reserve sua identidade visual",
+      "button": "Quero minha identidade",
+      "arrow": true,
+      "fine": "Arte do cartão de visita entregue em arquivo digital (impressão não inclusa). Condição válida até 30/11/2026."
+    }
+  ]
+}

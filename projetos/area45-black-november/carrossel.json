@@ -1,0 +1,12 @@
+{
+  "extends": "base.json",
+  "piece": "Carrossel do feed · 5 lâminas 4:5 · renderizar com --format 4x5 --stills",
+  "vars": { "short": { "big": "150px", "h1": "100px", "h2": "64px", "it": "38px", "ic": "60px", "ipad": "14px 22px", "lgap": "12px", "price": "250px", "kit": "0.82" } },
+  "scenes": [
+    { "type": "title", "dur": 3, "kicker": "Black November Area45", "lines": ["Identidade", "visual por", "<em>R$&nbsp;499</em>"], "sub": "Arraste para ver tudo o que está incluso →", "vars": { "short": { "big": "138px" } } },
+    { "type": "hook", "dur": 3, "size": "h1", "lines": ["Cliente decide", "em segundos se", "confia na sua marca.", "<em>A primeira impressão</em>", "<em>é visual.</em>"], "vars": { "short": { "h1": "84px" } } },
+    { "type": "kit", "dur": 3, "kicker": "Identidade visual completa", "title": "Uma marca <em>profissional</em> do logo ao cartão", "sub": "Tudo pensado para funcionar junto: no Instagram, no WhatsApp e no papel." },
+    { "type": "list", "dur": 6, "title": "O que você <em>recebe</em>:", "step": 0.3 },
+    { "type": "cta", "dur": 3, "badge": "Válido até 30/11", "title": "Tudo isso por <em>R$&nbsp;499</em>", "sub": "Condição especial de Black November. Chame no WhatsApp e reserve a sua.", "button": "Chamar no WhatsApp", "fine": "Arte do cartão de visita em arquivo digital (impressão não inclusa)." }
+  ]
+}
