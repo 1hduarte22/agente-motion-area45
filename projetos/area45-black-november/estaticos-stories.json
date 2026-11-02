@@ -1,0 +1,9 @@
+{
+  "extends": "base.json",
+  "piece": "Stories estáticos · 9:16 · renderizar com --format 9x16 --stills (adicionar figurinha de link/WhatsApp na área livre de baixo)",
+  "scenes": [
+    { "type": "offer", "dur": 3, "kicker": "Black November", "lines": ["Identidade", "<em>visual</em>"], "pre": "Pacote completo por", "vars": { "big": "160px", "chip": "32px", "price": "300px" } },
+    { "type": "offer", "dur": 3, "kicker": "O que você recebe", "list": true, "pre": "Tudo por", "chips": false, "vars": { "it": "40px", "ic": "64px", "lgap": "14px", "price": "220px" } },
+    { "type": "cta", "dur": 3, "badge": "Só até 30/11", "title": "Sua marca <em>profissional</em> por R$&nbsp;499", "sub": "Responda este story com <b>EU QUERO</b> ou chame no WhatsApp", "button": "Quero minha identidade", "arrow": true, "fine": "Arte do cartão de visita em arquivo digital (impressão não inclusa).", "vars": { "h1": "112px" } }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "client": "Area45 Marketing",
+  "campaign": "Black November 2026 · pacote de identidade visual por R$ 499 · válido até 30/11",
+  "template": "campanha.html",
+  "assets": "assets",
+  "seal": "Black November",
+  "handle": "@area45marketing",
+  "palette": { "bg": "#0A0A0B", "bg2": "#141416", "ink": "#F5F3EE", "accent": "#C8FF2E", "accent-ink": "#0A0A0B", "cta": "#25D366" },
+  "price": { "value": 499, "cents": "00" },
+  "items": [
+    { "icon": "logo", "label": "Logotipo", "short": "Logo" },
+    { "icon": "manual", "label": "Manual de identidade", "short": "Manual de identidade" },
+    { "icon": "paleta", "label": "Paleta de cores", "short": "Paleta de cores" },
+    { "icon": "tipografia", "label": "Tipografia", "short": "Tipografia" },
+    { "icon": "destaques", "label": "Destaques do Instagram", "short": "Destaques do Instagram" },
+    { "icon": "aplicacao", "label": "Manual de aplicação", "short": "Manual de aplicação" },
+    { "icon": "cartao", "label": "Arte do cartão de visita", "note": "arquivo digital, impressão não inclusa", "short": "Arte do cartão de visita" }
+  ]
+}

@@ -27,3 +27,7 @@ Fotos retrato ocupam a tela inteira; fotos paisagem entram num card sobre a pró
 ## Padrão de roteiro (alinhado ao gestor de tráfego)
 
 Gancho com preço/benefício nos 3 primeiros segundos → 5 a 7 cenas de prova (um benefício por cena, texto grande) → preço → CTA para WhatsApp. 20 a 30 s, texto 100% queimado (o vídeo funciona sem som), texto principal fora dos 360 px de baixo no 9:16 para não ficar atrás da interface do Instagram.
+
+## Campanhas gráficas (sem fotos)
+
+`engine/campanha.html` é um segundo template para campanhas da própria agência: tipografia cinética, mockups em CSS, fita corrida e wipe entre cenas. Ative com `"template": "campanha.html"` no JSON. Um mesmo spec gera o vídeo ou, com `--stills`, um PNG por cena (é assim que saem posts, carrosséis e stories). `"extends": "base.json"` herda marca, preço e itens comuns. Cenas: `hook`, `title`, `kit`, `list`, `price`, `offer`, `cta`. Exemplo: `projetos/area45-black-november/` (ver `CAMPANHA.md`).
