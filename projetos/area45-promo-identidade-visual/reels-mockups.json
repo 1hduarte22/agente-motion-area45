@@ -1,0 +1,18 @@
+{
+  "client": "Area45 (campanha própria)",
+  "campaign": "Promoção de identidade visual · nov/2026 · R$499 · Meta Ads → WhatsApp",
+  "assets": "assets",
+  "brand": "Area45",
+  "grade": "contrast(1.03) saturate(1.04)",
+  "scenes": [
+    {"type":"hook","img":"hero.jpg","fit":"cover","zoom":0.05,"dur":3.4,"kicker":"Promoção de novembro","title":"Sua marca <em>profissional</em> por R$&nbsp;499","sub":"Identidade visual completa, pronta em até 7 dias úteis","note":"Marca fictícia · exemplo"},
+    {"type":"photo","img":"logo.jpg","fit":"cover","zoom":0.05,"dur":2.4,"label":"Logo","caption":"Criado do zero para o seu negócio"},
+    {"type":"photo","img":"manual.jpg","fit":"cover","zoom":0.05,"dur":2.4,"label":"Manual de identidade visual","caption":"Regras para usar a marca sempre certo"},
+    {"type":"photo","img":"paleta.jpg","fit":"cover","zoom":0.05,"dur":2.2,"label":"Paleta de cores"},
+    {"type":"photo","img":"tipografia.jpg","fit":"cover","zoom":0.05,"dur":2.2,"label":"Tipografia"},
+    {"type":"photo","img":"destaques.jpg","fit":"cover","zoom":0.05,"dur":2.4,"label":"Destaques do Instagram","caption":"Perfil organizado e com a sua cara"},
+    {"type":"photo","img":"cartao.jpg","fit":"cover","zoom":0.05,"dur":2.4,"label":"Arte do cartão de visitas","caption":"Arquivo pronto para a gráfica"},
+    {"type":"price","img":"hero.jpg","zoom":0.04,"dur":3.8,"pre":"Tudo isso por","value":499,"unit":"à vista","chips":["Parcele no cartão","Entrega em até 7 dias úteis"]},
+    {"type":"cta","img":"hero.jpg","dur":4.0,"title":"<em>Poucas vagas</em> só em novembro","sub":"Toque em Enviar mensagem e garanta a sua","button":"Chamar no WhatsApp","who":"Area45 · Identidade visual"}
+  ]
+}
