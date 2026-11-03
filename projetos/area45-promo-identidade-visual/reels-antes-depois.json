@@ -1,7 +1,7 @@
 {
   "client": "Area45 (campanha própria)",
   "campaign": "Promoção de identidade visual · nov/2026 · Meta Ads → WhatsApp · R$300",
-  "pendente": "Trocar [PRECO], [ITEM n], [N], ramos e o valor numérico do preço quando a promoção estiver definida. Fotos em assets/ conforme BRIEF.md. Aplicar cores da Area45 em palette.",
+  "pendente": "Preço definido: R$499. Trocar [ITEM n], [N], ramos e o valor numérico do preço quando a promoção estiver definida. Fotos em assets/ conforme BRIEF.md. Aplicar cores da Area45 em palette.",
   "assets": "assets",
   "brand": "Area45",
   "grade": "contrast(1.04) saturate(1.06)",
@@ -13,7 +13,7 @@
     {"type":"photo","img":"depois-02.jpg","zoom":0.05,"dur":2.4,"label":"DEPOIS"},
     {"type":"photo","img":"mockup-cartao.jpg","zoom":0.05,"dur":2.2,"label":"Cartão de visita","caption":"Incluso na promoção","note":"Imagem ilustrativa"},
     {"type":"photo","img":"mockup-instagram.jpg","zoom":0.05,"dur":2.2,"label":"Instagram padronizado","caption":"Perfil e posts com a sua marca","note":"Imagem ilustrativa"},
-    {"type":"price","img":"mockup-fachada.jpg","zoom":0.04,"dur":3.6,"pre":"Identidade visual completa","value":0,"unit":"à vista","chips":["[ITEM 1]","[ITEM 2]","[ITEM 3]","[ITEM 4]"],"note":"Imagem ilustrativa"},
+    {"type":"price","img":"mockup-fachada.jpg","zoom":0.04,"dur":3.6,"pre":"Identidade visual completa","value":499,"unit":"à vista","chips":["[ITEM 1]","[ITEM 2]","[ITEM 3]","[ITEM 4]"],"note":"Imagem ilustrativa"},
     {"type":"cta","img":"depois-01.jpg","dur":3.8,"title":"Só <em>[N] vagas</em> em novembro","sub":"Toque em Enviar mensagem e garanta a sua","button":"Chamar no WhatsApp","who":"Area45 · Identidade visual"}
   ]
 }

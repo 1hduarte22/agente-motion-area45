@@ -14,7 +14,7 @@ node engine/render.mjs projetos/area45-promo-identidade-visual/reels-antes-depoi
 Saída: `area45-promo-id_reels-antes-depois_9x16.mp4` e `_4x5.mp4`.
 
 Antes de renderizar:
-- Trocar `[PRECO]` (campo `value`, hoje 0), `[ITEM n]`, `[N] vagas`, ramos dos clientes.
+- Preço: R$499 (já no `value`). Trocar `[ITEM n]`, `[N] vagas`, ramos dos clientes.
 - Se o preço não for em "mil", manter `unit` com texto curto (ex.: "à vista" ou "em 3x").
 - Colocar em `palette` as cores da Area45 (verde do logo usado na proposta) no lugar do dourado padrão.
 
